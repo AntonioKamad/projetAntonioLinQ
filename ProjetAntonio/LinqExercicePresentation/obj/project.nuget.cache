@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XNXzr5bSvjJDVZBweSiFnW60DACL0ga+Wmg98vRLtWVtQdUYYRU1JFPNwgSf+mSOy/IZhpNQpB6M3dkI2T8WmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\acaba\\Documents\\IPI M1\\LinQ\\ProjetAntonio\\LinqExercicePresentation\\LinqExercicePresentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acaba\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
