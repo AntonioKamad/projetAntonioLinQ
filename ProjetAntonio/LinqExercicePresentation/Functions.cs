@@ -47,6 +47,8 @@ namespace LinqExercicePresentation
                     //To read the cvs file
                     var csvLines = File.ReadAllLines(path);
 
+                    ListLanguagesData.ListLanguages.Clear();
+
                     foreach (var ln in csvLines)
                     {
                         //Separete the line by ";" to get every element of the line
@@ -91,7 +93,7 @@ namespace LinqExercicePresentation
 
             Console.WriteLine("Input file Path : " + path);
             Console.WriteLine("");
-            Console.WriteLine("Select the action you wish to perform by number :");
+            Console.WriteLine("Select the action you wish to perform by number or type 0 to quit :");
             Console.WriteLine(" 1) Transform a file");
             Console.WriteLine(" 2) Make a research");
             Console.WriteLine(" 3) Change InputFile");
@@ -110,7 +112,7 @@ namespace LinqExercicePresentation
                 mainMenu("Parsing error, select a valid number please", path);
             }
             //if it is a number but the number is not in the menu
-            if (input_nb > 3 || input_nb <= 0)
+            if (input_nb > 3 || input_nb < 0)
             {
                 Console.WriteLine("Parsing error");
                 Console.WriteLine("Restarting programme...");
@@ -119,6 +121,9 @@ namespace LinqExercicePresentation
 
             switch (input_nb)
             {
+                case 0:
+                    Console.WriteLine("Exiting Programme");
+                    return;
                 case 1:
                     convertMenu("", path);
                     break;
