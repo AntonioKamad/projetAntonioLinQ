@@ -1,2 +1,0 @@
-1023;Sicilian;sicilien;siciliano;Italy;ITA;scn;Vulnerable;5000000;37,4399;14,5019
-1586;Gondi;gondi;gondí;India;IND;gon;Vulnerable;2713790;19,5804;80,4418
